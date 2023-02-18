@@ -1,0 +1,470 @@
+/* utility */
+
+:root{
+    font-size: 65%;
+}
+body{
+    font-size: 1.6rem;
+}
+
+.container-fluid{
+    max-width: 85%;
+}
+.bg{
+    background-color: #FEF4F2;
+}
+.section{
+    padding: 4rem 0;
+}
+h1.custom-h1{
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Montserrat';
+font-style: normal;
+
+padding-top: 3rem;
+
+}
+h2{
+    font-family:'Montserrat';
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 4rem;
+padding-top: 1.5rem;
+}
+h3{
+    margin-bottom: 2rem;
+}
+p.para{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 1.8rem;
+margin: 0 auto 2rem ;
+color: #0D0F16;
+}
+/* navbar  */
+.navbar{
+    background-color: #FEF4F2 !important;   
+    margin: 0 auto;
+}
+nav .navbar-brand{
+    font-family: 'Satisfy', cursive;
+    font-size: 4.4rem;
+    color: #0D0F16;
+}
+.navbar-collapse{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    line-height: 2rem;
+    
+}
+
+/* custom nav-bar toggler*/
+
+
+.navbar-toggler {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+outline: none;
+box-shadow: none;
+border: 0;
+}
+
+.navbar-toggler span{
+    margin: 0;
+    padding: 0;
+}
+
+.toggler-icon{
+    display: block;
+    position: absolute;
+    height: 0.3rem;
+    width: 100%;
+    background: #0D0F16;
+    border-radius: 0.1rem;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+.middle-bar{
+    margin-top: 0;
+
+}
+.navbar-toggler .top-bar{
+    margin-top: 0;
+    transform: rotate(135deg);
+}
+.navbar-toggler .middle-bar{
+    opacity: 0;
+}
+.navbar-toggler .bottom-bar{
+    margin: 0;
+    transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .top-bar{
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar{
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+a.my-cv{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #F87474;
+    font-size: 1.4rem;
+    padding: 1.2rem 1.6rem;
+    border: .1rem solid #F87474;
+    border-radius: .5rem;
+    background-color: #FEF4F2 !important;
+}
+a.my-cv:hover{
+    background: #0D0F16 !important;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+
+
+
+/* first-section */
+.first-section{
+    background-color: #FEF4F2;
+    padding-top: 9rem;
+    
+}
+.title{
+    color:#F26C4F;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    line-height: 2rem;
+}
+.intro .hi{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 1.6rem;
+line-height: 3rem;
+color: #0D0F16;
+}
+.intro .my-name{
+    font-family: 'Satisfy';
+font-style: normal;
+font-weight: 400;
+font-size: 4rem;
+line-height: 5.5rem;
+color: #000000;
+}
+.intro .slogun{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 1.6rem;
+line-height: 150%;
+margin: 0 auto 2rem ;
+color: #0D0F16;
+}
+.intro .my-name span{
+    color: #F26C4F;
+}
+.first-section img{
+    max-width: 30rem;
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+   
+}
+/* home page button */
+.homeBtn{
+    text-decoration: none;
+    font-family: 'Montserrat';
+    line-height: 3.2rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: white;
+    background: #F26C4F;
+    border-radius: .2rem;
+    padding: .6rem 2rem;
+    cursor: pointer;
+}
+.homeBtn:hover{
+    background-color: #0D0F16;
+    color: white;
+    font-weight: 600;
+}
+
+/* second section */
+.second-section{
+    background: #FFFFFF;
+}
+
+
+/* project section */
+
+.item1 { grid-area: one; }
+.item2 { grid-area: two; }
+.item3 { grid-area: three; }
+.item4 { grid-area: four; }
+.item5 { grid-area: five; }
+
+.project-grid {
+  display: grid;
+  grid-template-areas:
+    'one one two'
+    'three four five';
+  gap: 10px;
+  padding: 10px;
+}
+
+.project-grid > div {
+    background: rgba(242, 108, 79, 0.5);
+  text-align: center;
+  padding: 100px 0;
+  font-size: 30px;
+}
+
+/* services */
+.service img{
+    width: 3.5rem;
+    padding-bottom: 2rem;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+.service-section{
+   max-width: 300px;
+   padding: 2.5rem;
+   border: 1px solid rgba(242, 108, 79, 0.1);
+   box-shadow: 0px 3px 5px 2px #F26C4F;
+   margin: 2.5rem;
+}
+
+/*  skills section  */
+.items{
+   margin: 2rem auto;;
+}
+
+.items img{
+    width: 3.5rem;
+}
+.items p{
+    font-weight: 500;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.skill{
+    width: 220px;
+    
+}
+
+.border1{
+    border-color:rgba(242, 108, 79, 0.5);
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+}
+
+.border_bottom{
+    border-color:rgba(242, 108, 79, 0.5);
+    border-width: 0px 0px 1px 0px;
+    border-style: solid; 
+}
+.border_right, .border3{
+   border-right: 1px solid rgba(242, 108, 79, 0.5); 
+}
+
+.border3, .border7{
+    border-left: 1px solid rgba(242, 108, 79, 0.5); 
+}
+.border10{
+   border-right: 1px solid rgba(242, 108, 79, 0.5); 
+}
+
+/* ----------cta-------- */
+.pos-relative{
+    position: relative;
+}
+
+.pos-relative img{
+    position: absolute;
+    width: 200px;
+    left: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+/* -----------ABOUT SECTION-------------- */
+
+.img-sec img{
+   
+    width: 350px;
+   
+    
+}
+.About-section .homeBtn {
+
+    text-decoration: none;
+    font-family: 'Montserrat';
+    line-height: 3.2rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: white;
+    background: #F26C4F;
+    border-radius: .2rem;
+    padding: 1.2rem 1.6rem;
+    margin-right: 2rem;
+    cursor: pointer;
+
+}
+
+.About-section .homeBtn:hover{
+    background-color: #0D0F16;
+    color: white;
+    font-weight: 600;
+
+}
+/* --------------contact ------------------ */
+
+.contact img{
+    width: 50px;
+}
+.contact a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 150%;
+    padding: 1.5rem 0;
+}
+.social-media{
+    margin-top: 4rem;
+}
+.social-media img{
+    width: 40px;
+}
+.social-media a{
+    padding-right: 3rem;
+}
+
+.contact-section .row{
+    flex-direction:unset;
+}
+
+
+/*  break point at 768px */
+@media screen and (min-width:768px) {
+    .border_bottom{
+        border: none;
+    }
+   .borderSL{
+    border-right: 1px solid rgba(242, 108, 79, 0.5); 
+   }
+   
+}
+@media screen and (max-width:768px) {
+    .border3, .border7, .border10{
+        border-left: none; 
+    }
+    
+    .borderSL{
+        border-right: 1px solid rgba(242, 108, 79, 0.5); 
+       }
+    .border2{
+        border-color:rgba(242, 108, 79, 0.5);
+        border-width: 0px 0px 1px 0px;
+        border-style: solid; 
+    }
+    .container-fluid{
+        max-width: 95%;
+    }
+    body{
+        text-align: center;
+    }
+    
+    nav .navbar-brand{
+        font-size: 3.2rem;
+    }
+    .navbar-collapse{
+        padding-bottom: 2rem;
+        
+    }
+    .intro{
+        padding: 1rem 0;
+    }
+    .row{
+        display: flex;
+         flex-flow: column-reverse;
+    }
+    .first-section img{
+            max-width: 15rem;
+           
+        
+    }      
+    .first-section{
+        padding-top: 4rem;
+    }
+    .title{
+        display: none;
+    }
+    /* skills */
+
+    .skill{
+        width: 150px;
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width: 992px){
+    span.toggler-icon{
+        display: none;
+    }
+    .skill{
+        width: 200px;
+    }
+    .border_bottom{
+        border-color:rgba(242, 108, 79, 0.5);
+        border-width: 0px 0px 1px 0px;
+        border-style: solid; 
+    }
+    .borderSL, .border3{
+        border-right-width: none;
+       }
+       .border3{
+        border-left: none; 
+    }
+}
