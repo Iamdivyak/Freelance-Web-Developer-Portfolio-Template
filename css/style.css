@@ -51,7 +51,7 @@ color: #0D0F16;
     background-color: #FEF4F2 !important;   
     margin: 0 auto;
 }
-nav .navbar-brand{
+.navbar-brand{
     font-family: 'Satisfy', cursive;
     font-size: 4.4rem;
     color: #0D0F16;
@@ -259,10 +259,12 @@ color: #0D0F16;
 }
 .service-section{
    max-width: 300px;
-   padding: 2.5rem;
+   padding: 2rem;
+   border-radius: 10px;
+    background-color: white;
    border: 1px solid rgba(242, 108, 79, 0.1);
-   box-shadow: 0px 3px 5px 2px #F26C4F;
-   margin: 2.5rem;
+   box-shadow: 0px 3px 5px 2px #d7d7d7;
+   margin: 2rem;
 }
 
 /*  skills section  */
@@ -382,7 +384,89 @@ color: #0D0F16;
 }
 
 .contact-section .row{
-    flex-direction:unset;
+    display: flex;
+    /* flex-direction:unset; */
+}
+
+/* form design */
+input, textarea, button[type="submit"]{
+    border-radius: 20px;
+    background: #FEF4F2;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+}
+
+textarea{
+    width: 90%;
+height: 180px;
+}
+
+input[type="text"]{
+    width: 90%;
+    height: 40px;
+    margin: 10px auto;
+
+}
+input[type="email"]{
+    width: 44%;
+    height: 40px;
+    margin: 10px auto;
+
+}
+input[type="number"]{
+    width: 44%;
+    height: 40px;
+    margin: 10px auto;
+}
+input[type="submit"]{
+    width: 90%;
+    height: 40px;
+    margin: 20px auto;
+
+}
+
+::placeholder {
+    padding-left: 15px;
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 41px;
+color: rgba(0, 0, 0, 0.5);
+  }
+
+button[type="submit"]{
+    background: #F87474;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding: 0 15px;
+
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* flex-basis: 30%; */
+}
+footer div{
+    width: 32%;
+}
+
+.social-links img{
+    width: 40px;
+}
+.social-links a{
+    padding: 3rem;
 }
 
 
@@ -416,9 +500,12 @@ color: #0D0F16;
         text-align: center;
     }
     
-    nav .navbar-brand{
+    .navbar-brand{
         font-size: 3.2rem;
     }
+    /* a.navbar-brand:hover{
+        color:  #F87474 !important;
+    } */
     .navbar-collapse{
         padding-bottom: 2rem;
         
@@ -445,6 +532,9 @@ color: #0D0F16;
 
     .skill{
         width: 150px;
+    }
+    form{
+        display: block;
     }
     
 }
