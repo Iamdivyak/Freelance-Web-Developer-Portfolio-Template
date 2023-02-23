@@ -453,23 +453,49 @@ button[type="submit"]{
 /* footer */
 
 footer{
+    background-color: #FEF4F2;    
+    /* flex-basis: 30%; */
+}
+.footer{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
-    /* flex-basis: 30%; */
 }
-footer div{
+.footer div{
     width: 32%;
 }
-
 .social-links img{
     width: 40px;
 }
-.social-links a{
-    padding: 3rem;
+.social-links a img{
+    margin-bottom: 20px;
+    
 }
 
+ul{
+    list-style: none;
+}
+.quike-links ul li{
+    margin-bottom: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
 
+}
+
+.footer-bottom{
+    background-color: #FFFFFF;
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.5);
+
+}
 /*  break point at 768px */
 @media screen and (min-width:768px) {
     .border_bottom{
@@ -515,10 +541,10 @@ footer div{
     }
     .row{
         display: flex;
-         flex-flow: column-reverse;
+        flex-flow: column-reverse;
     }
     .first-section img{
-            max-width: 15rem;
+        max-width: 15rem;
            
         
     }      
@@ -536,7 +562,21 @@ footer div{
     form{
         display: block;
     }
-    
+    /* footer */
+    .footer div{
+        width: 100%;
+    }
+    .social-links{
+        display: flex;
+        justify-content: center;   
+    }
+    .social-links a img{
+        margin: auto 20px;
+        
+    }
+    .footer-bottom{
+        font-size: 11px;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width: 992px){
