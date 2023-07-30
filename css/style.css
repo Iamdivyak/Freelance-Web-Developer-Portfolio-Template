@@ -244,6 +244,8 @@ color: #0D0F16;
   text-align: center;
   padding: 100px 0;
   font-size: 30px;
+  border-radius: 10px;
+
 }
 
 /* services */
@@ -485,7 +487,7 @@ a{
 }
 
 .footer-bottom{
-    background-color: #FFFFFF;
+    color: #ececec;
     font-family: 'Nunito';
 font-style: normal;
 font-weight: 400;
@@ -493,7 +495,7 @@ font-size: 14px;
 line-height: 22px;
 text-align: center;
 
-color: rgba(0, 0, 0, 0.5);
+background-color: rgba(0, 0, 0, 0.9);
 
 }
 /*  break point at 768px */
@@ -554,6 +556,20 @@ color: rgba(0, 0, 0, 0.5);
     .title{
         display: none;
     }
+
+    /* project grid */
+
+    .project-grid {
+        display: grid;
+        grid-template-areas:
+          'one'
+          'two'
+          'three'
+          'four'
+          'five';
+        gap: 40px;
+        margin: 20px 40px;
+      }
     /* skills */
 
     .skill{
