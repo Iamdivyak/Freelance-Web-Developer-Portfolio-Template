@@ -227,9 +227,11 @@ color: #0D0F16;
     background-position: center; 
      background-size: cover;
      background-repeat: no-repeat;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 .item1 { grid-area: one;
-     background-image: url(../img/project01.png);
+     background-image: url(../img/project05.png);
      
 }
 .item2 {
@@ -238,7 +240,7 @@ color: #0D0F16;
 }
 .item3 { grid-area: three; background-image: url(../img/project03.png); }
 .item4 { grid-area: four; background-image: url(../img/project04.png); }
-.item5 { grid-area: five; background-image: url(../img/project05.png);}
+.item5 { grid-area: five; background-image: url(../img/project01.png);}
 
 .project-grid {
   display: grid;
@@ -254,15 +256,47 @@ color: #0D0F16;
   padding: 100px 0;
   font-size: 30px;
   border-radius: 10px;
+}
+.project-grid .layer{
+
+    background-color: transparent;
+    opacity: 0.8;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.project-grid .layer:hover{
+    background-color: #F87474;
 
 }
+.layer a{
+    border-radius: 10px;
+    bottom: 0;
+    bottom: 0;
+    overflow: auto;
+    padding: 0.6rem 2rem;
+    background-color: black;
+    color: #ececec;
+    border: 1px solid black;
+    opacity: 0;
+    transition: 0.7s;
+    
+}
 
+.layer:hover a{
+    opacity: 1;
+}
 
 /* services */
 .service img{
     width: 3.5rem;
     padding-bottom: 2rem;
 }
+
 .services{
     display: flex;
     justify-content: center;
@@ -275,9 +309,15 @@ color: #0D0F16;
    border-radius: 10px;
     background-color: white;
    border: 1px solid rgba(242, 108, 79, 0.1);
-   box-shadow: 0px 3px 5px 2px #d7d7d7;
    margin: 2rem;
+   transition: 500ms;
    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.service-section:hover{
+    max-width: 350px;
+    margin: 1rem;
+    padding: 3rem;
 }
 
 /*  skills section  */
@@ -603,8 +643,22 @@ a{
           'four'
           'five';
         gap: 40px;
-        margin: 20px 40px;
+        margin: 1.2rem 2rem;
       }
+
+      .project-grid .layer{
+        position: relative;
+        /* background-color: #F87474; */
+      }
+      .layer a{
+        opacity: 1;
+        background-color: #ff7777;
+        border: #F87474;
+
+      /* }
+      .item1, .item2, .item3, .item4, .item5{
+        filter: blur(1px);
+      } */
     /* skills */
 
     .skill{
@@ -648,4 +702,5 @@ a{
        .border3{
         border-left: none; 
     }
+}
 }
