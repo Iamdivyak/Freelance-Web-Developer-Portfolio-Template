@@ -1,5 +1,7 @@
 /* utility */
-
+*{
+    box-sizing: border-box;
+}
 :root{
     font-size: 65%;
 }
@@ -489,6 +491,7 @@ color: rgba(41, 41, 41, 0.5);
   }
 
 button[type="submit"]{
+    box-sizing: border-box;
     background: #F87474;
     border: none;
     border-radius: 20px;
@@ -504,7 +507,7 @@ button[type="submit"]{
 }
 button[type="submit"]:hover{
     background: none;
-    border: 2px solid #F87474;
+    border: 1px solid #F87474;
     color: rgb(67, 67, 67);
 }
 
