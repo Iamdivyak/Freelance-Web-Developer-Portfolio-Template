@@ -311,7 +311,7 @@ color: #0D0F16;
    border-radius: 10px;
     background-color: white;
    border: 1px solid rgba(242, 108, 79, 0.1);
-   margin: 2rem;
+   margin: 4rem;
    transition: 500ms;
    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
@@ -433,9 +433,16 @@ color: #0D0F16;
 }
 .social-media img{
     width: 40px;
+    transition: 300ms ease-in;
+
+}
+.social-media img:hover{
+    width: 45px;
+    rotate: 45deg;
+    
 }
 .social-media a{
-    padding-right: 3rem;
+    margin: auto 1.5rem;
 }
 
 .contact-section .row{
@@ -454,6 +461,7 @@ input, textarea, button[type="submit"]{
 textarea{
     width: 90%;
 height: 180px;
+text-indent: 20px;
 }
 
 input[type="text"]{
@@ -461,7 +469,11 @@ input[type="text"]{
     height: 40px;
     margin: 10px auto;
 
+
 }
+input {
+    text-indent:20px;
+  }
 input[type="email"]{
     width: 44%;
     height: 40px;
