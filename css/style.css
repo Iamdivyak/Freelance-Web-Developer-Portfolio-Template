@@ -598,6 +598,19 @@ a{
    }
    
 }
+@media screen and (max-width:479px) {
+    .skill{
+        width: 160px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .skill{
+        width: 150px;
+    }
+    
+}
+
 @media screen and (max-width:768px) {
     .border3, .border7, .border10{
         border-left: none; 
@@ -677,7 +690,7 @@ a{
     /* skills */
 
     .skill{
-        width: 150px;
+        width: 170px;
     }
     form{
         display: block;
@@ -699,12 +712,14 @@ a{
     }
 }
 
+
+
 @media screen and (min-width:768px) and (max-width: 992px){
     span.toggler-icon{
         display: none;
     }
     .skill{
-        width: 200px;
+        width: 170px;
     }
     .border_bottom{
         border-color:rgba(242, 108, 79, 0.5);
