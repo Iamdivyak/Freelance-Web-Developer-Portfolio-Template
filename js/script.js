@@ -60,9 +60,9 @@ class Footer extends HTMLElement {
                   <a href="services.html">Services</a>
                 </li>
                 <li>
-                  <a href="projects">Projects</a>
+                  <a href="projects.html">Projects</a>
                 </li>
-                <li><a href="aboutUMe.html">About Me</a></li>
+                <li><a href="about.html">About Me</a></li>
               </ul>
             </div>
             <div class="social-links text-center">
