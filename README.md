@@ -9,6 +9,12 @@ To get your personal portfolio. Customize your portfolio theme by using your own
 
 If you'd like to **contribute** and make this much better for other users, have a look at [Issues](https://github.com/Iamdivyak/portfolio/issues) or feel free to create an issue that helps to make the portfolio more bater.
 
+
+## 🖼️ Figma Design of the Website
+
+- Visite the design file [Figma Design](https://www.figma.com/file/wKcuUSuG9uEbaXL4TytRzG/my-profile%2Fportfolio-design?type=design&node-id=0%3A1&mode=design&t=TgSPcyjNpZr9n8YT-1)
+
+
 ## 💻 Tech Stack
 
 - [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5) - HTML is the standard markup language for Web pages
