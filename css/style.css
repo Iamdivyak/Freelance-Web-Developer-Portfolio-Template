@@ -559,11 +559,14 @@ ul{
 }
 .quike-links ul li{
     margin-bottom: 25px;
+    /* padding-righ: 24px; */
+    margin-left: 120px;
+    text-align: left;
 
 }
 .quike-links a:hover{
     color: #212121;
-    text-shadow: 1px 2px 5px #0D0F16;
+    text-decoration: underline;
 
 }
 a{
