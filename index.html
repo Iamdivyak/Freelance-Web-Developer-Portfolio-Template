@@ -50,7 +50,10 @@
               
             </div>
             <div class="col-md-6 pb-0 img">
-              <img src="img/myImage.png" alt="" srcset="">
+              <div class="images">
+                <img src="shape1.png"alt="" class="shape">
+                <img src="img/myImage.png" alt="" class="girl">
+              </div>
             </div>
           </div>
       
@@ -342,3 +345,45 @@ I develop websites with HTML, CSS and JavaScript. I have top skills in using des
     <script src="js/script.js"></script>
 </body>
 </html>
+
+
+
+<style>
+  .images {
+      width: 15%;
+      height: 39%;
+      position: absolute;
+      right: 100px;
+      bottom: 33%; /* Adjust this value to move the images down */
+  
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+          width: 30%; /* Adjust the width for smaller screens */
+          left: 10px; /* Adjust the left position for smaller screens */
+          bottom: -40%; /* Adjust the bottom position for smaller screens */
+      }
+  
+      @media (max-width: 480px) {
+          width: 40%; /* Adjust the width for even smaller screens */
+          left: 5px; /* Adjust the left position for even smaller screens */
+          bottom: -20%; /* Adjust the bottom position for even smaller screens */
+      }
+  }
+  
+  .images img {
+      height: 100%;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      transition: bottom 1s, left 1s;
+  }
+  
+  .images:hover .shape {
+      bottom: 40px;
+  }
+  
+  .images:hover .girl {
+      left: 45%;
+  }
+  </style>
