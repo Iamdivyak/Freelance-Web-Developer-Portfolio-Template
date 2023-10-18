@@ -47,7 +47,7 @@ class Footer extends HTMLElement {
               <a class="navbar-brand" href="index.html">Divya k</a>
               <p>I’m Divya Kumari, a junior and talented Web Designer with front end development skills.</p>
               <hr style="margin: 20px 0; color: rgb(82, 82, 82); width: 60%;">
-              <span class="contact"><a href="emailto:kumaridivya2796@gmail.com" class="email">
+              <span class="contact"><a href="mailto:kumaridivya2796@gmail.com" class="email">
                 <img src="./img/email.png" alt="email me"> &nbsp; &nbsp;
                 kumaridivya2796@gmail.com</a></span>
             </div>
