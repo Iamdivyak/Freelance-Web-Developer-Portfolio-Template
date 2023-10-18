@@ -361,7 +361,6 @@ color: #0D0F16;
 .border_right, .border3{
    border-right: 1px solid rgba(242, 108, 79, 0.5); 
 }
-
 .border3, .border7{
     border-left: 1px solid rgba(242, 108, 79, 0.5); 
 }
@@ -559,11 +558,12 @@ ul{
 }
 .quike-links ul li{
     margin-bottom: 25px;
+    text-align: left;
 
 }
 .quike-links a:hover{
     color: #212121;
-    text-shadow: 1px 2px 5px #0D0F16;
+    text-decoration: underline;
 
 }
 a{
