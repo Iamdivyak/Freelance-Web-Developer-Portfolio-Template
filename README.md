@@ -77,6 +77,12 @@ git push origin fix-issue-<ISSUE-NUMBER>
 ```
 8. Open a Pull Request
 
+## Thanks to all Contributors 💪
+Your contribution is the root of the success of this project.
+
+Also Give it a Star 🌟, If you loved contributing to the project. 
+Let's connect on my [Github](https://github.com/Iamdivyak) for more such projects !!
+
 ## 👩‍💻 Project Admin
 
 <table>
