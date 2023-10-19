@@ -200,7 +200,7 @@ color: #0D0F16;
    
 }
 /* home page button */
-.homeBtn{
+/*.homeBtn{
     text-decoration: none;
     font-family: 'Montserrat';
     line-height: 3.2rem;
@@ -216,7 +216,33 @@ color: #0D0F16;
     background-color: #0D0F16;
     color: white;
     font-weight: 600;
+}*/
+.homeBtn {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    line-height: 3.2rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: white;
+    background: #F26C4F;
+    border-radius: .4rem;
+    padding: .6rem 2rem;
+    cursor: pointer;
+    transition: all 0s ease; /* Add a transition for a smooth effect on default state */
 }
+
+.homeBtn:hover {
+    background: linear-gradient(90deg, #4CAF50, #45A049); /* Corporate green gradient background */
+    color: white;
+    font-weight: 500; /* Make the text bolder on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a box shadow for the "pop-up" effect */
+    transition: background 0s ease, font-weight 0.3s ease, box-shadow 0.3s ease; /* Add a transition for a smooth effect on hover state */
+}
+
+  
+  
+  
+  
 
 /* second section */
 .second-section{
