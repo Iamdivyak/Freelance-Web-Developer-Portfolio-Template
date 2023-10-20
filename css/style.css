@@ -569,26 +569,7 @@ line-height: 41px;
 color: rgba(41, 41, 41, 0.5);
   }
 
-/*button[type="submit"]{
-    box-sizing: border-box;
-    background: #F87474;
-    border: none;
-    border-radius: 20px;
-    font-family: 'Nunito';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 41px;
-    color: #FFFFFF;
-    margin-top: 20px;
-    padding: 0 15px;
 
-}
-button[type="submit"]:hover{
-    background: none;
-    border: 1px solid #F87474;
-    color: rgb(67, 67, 67);
-}*/
 button[type="submit"] {
     box-sizing: border-box;
     background: #F87474;
