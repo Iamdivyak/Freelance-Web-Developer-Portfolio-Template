@@ -570,7 +570,7 @@ color: rgba(41, 41, 41, 0.5);
   }
 
 
-  button[type="submit"] {
+  button[type="submit"] 
     background: #F87474;
     border: 1px solid #F87474;
     border-radius: 20px;
