@@ -570,10 +570,9 @@ color: rgba(41, 41, 41, 0.5);
   }
 
 
-button[type="submit"] {
-    box-sizing: border-box;
+  button[type="submit"] {
     background: #F87474;
-    border: none;
+    border: 1px solid #F87474;
     border-radius: 20px;
     font-family: 'Nunito';
     font-style: normal;
@@ -585,6 +584,7 @@ button[type="submit"] {
     padding: 0 15px;
     transition: all 0s ease; /* Add a transition for a smooth effect on default state */
 }
+
 
 button[type="submit"]:hover {
     background: linear-gradient(90deg, #4CAF50, #45A049); /* Green gradient background on hover */
