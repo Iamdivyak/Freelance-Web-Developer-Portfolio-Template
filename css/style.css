@@ -130,7 +130,7 @@ border: 0;
     transform: rotate(0deg);
 }
 
-a.my-cv{
+/*a.my-cv{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: #F87474;
@@ -145,7 +145,27 @@ a.my-cv:hover{
     color: white;
     font-weight: 600;
     border: none;
+}*/
+a.my-cv {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #F87474;
+    font-size: 1.4rem;
+    padding: 1.2rem 1.6rem;
+    border: .1rem solid #F87474;
+    border-radius: .5rem;
+    background-color: #FEF4F2 !important;
+    transition: all 0s ease; /* Add a transition for a smooth effect on default state */
 }
+
+a.my-cv:hover {
+    background: linear-gradient(90deg, #4CAF50, #45A049); /* Green gradient background on hover */
+    color: white;
+    font-weight: 600; /* Make the text bolder on hover */
+    border: none;
+    transition: all 0s ease; /* Add a transition for a smooth effect on hover state */
+}
+
 
 
 
@@ -415,7 +435,7 @@ color: #0D0F16;
    
     
 }
-.About-section .homeBtn {
+/*.About-section .homeBtn {
 
     text-decoration: none;
     font-family: 'Montserrat';
@@ -436,7 +456,29 @@ color: #0D0F16;
     color: white;
     font-weight: 600;
 
+}*/
+.About-section .homeBtn {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    line-height: 3.2rem;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: white;
+    background: #F26C4F;
+    border-radius: .2rem;
+    padding: 1.2rem 1.6rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    transition: all 0s ease; /* Add a transition for a smooth effect on the default state */
 }
+
+.About-section .homeBtn:hover {
+    background: linear-gradient(90deg, #4CAF50, #45A049); /* Green gradient background on hover */
+    color: white;
+    font-weight: 500; /* Make the text bolder on hover */
+    transition: all 0s ease; /* Add a transition for a smooth effect on hover state */
+}
+
 /* --------------contact ------------------ */
 
 .contact img{
@@ -527,7 +569,7 @@ line-height: 41px;
 color: rgba(41, 41, 41, 0.5);
   }
 
-button[type="submit"]{
+/*button[type="submit"]{
     box-sizing: border-box;
     background: #F87474;
     border: none;
@@ -546,7 +588,31 @@ button[type="submit"]:hover{
     background: none;
     border: 1px solid #F87474;
     color: rgb(67, 67, 67);
+}*/
+button[type="submit"] {
+    box-sizing: border-box;
+    background: #F87474;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    padding: 0 15px;
+    transition: all 0s ease; /* Add a transition for a smooth effect on default state */
 }
+
+button[type="submit"]:hover {
+    background: linear-gradient(90deg, #4CAF50, #45A049); /* Green gradient background on hover */
+    color: rgb(255, 255, 255);
+    font-weight: 700; /* Make the text bolder on hover */
+    transition: all 0s ease; /* Add a transition for a smooth effect on hover state */
+}
+
+
 
 /* footer */
 
