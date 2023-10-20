@@ -502,9 +502,8 @@ color: rgba(41, 41, 41, 0.5);
   }
 
 button[type="submit"]{
-    box-sizing: border-box;
     background: #F87474;
-    border: none;
+    border: 1px solid #F87474;
     border-radius: 20px;
     font-family: 'Nunito';
     font-style: normal;
