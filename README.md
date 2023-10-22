@@ -1,13 +1,34 @@
-# Software Developer Portfolio ✨
+# Freelance Web Developer Portfolio Template ✨
 
 ## A clean, beautiful, and responsive portfolio template for Developers!
 <img width="269" alt="image" src="https://github.com/Iamdivyak/portfolio/assets/102896170/2e6786ff-6568-41bf-983f-c92228eb7dfd">
 
+Welcome to the Freelance Web Developer Portfolio Template, an open-source project to help web developers showcase their skills and work in a professional manner. This template provides a customizable and responsive portfolio website, allowing you to create a stunning online presence to attract clients and employers.
+
 To view a live example, **[click here](https://iamdivyak.github.io/portfolio/)**.
+
+## Features
+
+- **Responsive Design**: Your portfolio will look great on various devices and screen sizes.
+- **Customizable**: Easily modify content, images, and styles to suit your personal brand.
+- **Projects Showcase**: Display your projects with details, images, and links.
+- **Contact Form**: Include a contact form for potential clients and collaborators to reach out to you.
+- **Skills and Services**: Showcase your skills and services to highlight what you can offer.
+- **Blog Section**: Share your thoughts, insights, and knowledge with a built-in blog section.
+- **SEO Friendly**: Optimize your portfolio for search engines to increase your online visibility.
+
+## Getting Started
+
+1. **Fork the Repository**: Start by forking this repository to your GitHub account.
+
+2. **Clone the Repository**: Clone the forked repository to your local development environment:
+
+   ```bash
+   git clone https://github.com/yourusername/freelance-portfolio-template.git
 
 To get your personal portfolio. Customize your portfolio theme by using your own color scheme. Feel free to use it as-is or personalize it as much as you want.
 
-If you'd like to **contribute** and make this much better for other users, have a look at [Issues](https://github.com/Iamdivyak/portfolio/issues) or feel free to create an issue that helps to make the portfolio more bater.
+If you'd like to **contribute** and make this much better for other users, have a look at [Issues](https://github.com/Iamdivyak/Freelance-Web-Developer-Portfolio-Template/issues) or feel free to create an issue that helps to make the portfolio more batter.
 
 
 ## 🖼️ Figma Design of the Website
@@ -23,7 +44,7 @@ If you'd like to **contribute** and make this much better for other users, have 
 
 ## 🚀 Quick start
 
-Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please feel free to open an [issue](https://github.com/Iamdivyak/portfolio/issues) and submit a pull request. Make sure to follow the project's code of conduct.
+Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please feel free to open an [issue](https://github.com/Iamdivyak/Freelance-Web-Developer-Portfolio-Template/issues) and submit a pull request. Make sure to follow the project's code of conduct.
 
 > **Note**: If you are new to open source contributions, you can refer to [this](https://opensource.guide/how-to-contribute/) guide by GitHub.
 
@@ -34,7 +55,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 1. Clone the repo
 
 ```sh
- git clone https://github.com/Iamdivyak/portfolio.git
+ git clone https://github.com/Iamdivyak/Freelance-Web-Developer-Portfolio-Template.git
 ```
 
 2. Open the **index.html** file
@@ -47,7 +68,7 @@ Contributions are welcome! If you have any ideas, suggestions, or bug fixes, ple
 2. Clone your forked repository
 
 ```sh
-git clone https://github.com/<your_github_username>/portfolio.git
+git clone https://github.com/<your_github_username>/Freelance-Web-Developer-Portfolio-Template.git
 ```
 3. Now go ahead and create a new branch and move to the branch
 ```sh

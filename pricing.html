@@ -1,93 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
-    <link rel="manifest" href="./Favicon/site.webmanifest">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./Favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./Favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./Favicon/site.webmanifest" />
     <!-- bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  
-       <!-- fonts -->
-       <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Satisfy&display=swap" rel="stylesheet">
-  <!-- my css -->
-  <link rel="stylesheet" href="css/style.css"> 
-<!-- title -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- title -->
     <title>Divya Kumari | Portfolio</title>
     <style>
-        h1{
-            position: absolute;
-            left: 50%;
-            transform: translateX(-50%);
-        }
+      h1 {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
     </style>
-</head>
-<body>
-  <!-- navbar -->
-  <main-header></main-header>
-    <h1>page comming soon</h1>
-       
-        <!-- connect me -->
-        <div class="section">
-          <div class="container-fluid">
-           <p class="title">-CONTACT</p>
-           <div class="contact-section">
-             <h2>GET IN TOUCH</h2>
-             <p class="para">I am available to work on your projects and bring your ideas to life.
-              I am just a click away.</p>
-             <div class="row img-sec justify-content-center">
-              <div class="col-md-6">            
-            
+  </head>
+  <body>
+    <!-- navbar -->
+    <main-header>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Divya k</a>
+          <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link p-4" aria-current="page" href="index.html">Home</a>
+              </li>
+              <a class="nav-link p-4" aria-current="page" href="about.html">About</a>
+              </li>
+              <a class="nav-link active p-4" aria-current="page" href="pricing.html">Pricing</a>
+            </li>
+            <a class="nav-link p-4" aria-current="page" href="projects.html">Projects</a>
+              </li>             
+            </ul>
+           <a href="cv/divya kumari's Resume-hackerresume.pdf" download="DivyaKumari " class="my-cv">Download CV</a>
+          </div>
+        </div>
+        </nav>
+    </main-header>
+    <!-- Pricing Section -->
+    <div class="section pricing-section">
+      <div class="container-fluid">
+        <h2 class="title">-PRICING</h2>
+        <div class="project-section">
+          <h2>PRICES AND PLANS</h2>
+          <p class="para">
+            Plans designed for every business. Our services are carefully
+            designed to help you make the best choice for your business.
+          </p>
+        </div>
+        <div class="pricing-plans" id="pricing-container">
+          <!-- Pricing cards will be dynamically generated here -->
+        </div>
+      </div>
+    </div>
+
+    <!-- connect me -->
+    <div class="section">
+      <div class="container-fluid">
+        <p class="title">-CONTACT</p>
+        <div class="contact-section">
+          <h2>GET IN TOUCH</h2>
+          <p class="para">
+            I am available to work on your projects and bring your ideas to
+            life. I am just a click away.
+          </p>
+          <div class="row img-sec justify-content-center">
+            <div class="col-md-6">
               <div class="contact">
                 <a href="emailto:kumaridivya2796@gmail.com" class="email">
-                  <img src="./img/email.png" alt="email me"> &nbsp; &nbsp;
-                  kumaridivya2796@gmail.com</a>
+                  <img src="./img/email.png" alt="email me" /> &nbsp; &nbsp;
+                  kumaridivya2796@gmail.com</a
+                >
 
                 <!-- <a href="tel:9117599209" download="DivyaKumari " class="phone">
                   <img src="./img/phone.png" alt="phone"> &nbsp; &nbsp; +91 2345 567 678
                 </a> -->
               </div>
               <div class="social-media">
-                <a href="https://www.linkedin.com/in/iamdivyak/"><img src="./img/LinkedIn Circled.png" alt="linkedin"></a>
+                <a href="https://www.linkedin.com/in/iamdivyak/"
+                  ><img src="./img/LinkedIn Circled.png" alt="linkedin"
+                /></a>
                 <!-- <a href=""><img src="./img/Instagram.png" alt="Instagram"></a> -->
-                <a href="https://twitter.com/Imdivyakumari"> <img src="./img/Twitter.png" alt="twitter"></a>
-                <a href="https://github.com/Iamdivyak"><img src="./img/GitHub.png" alt="github"></a>  
-                
+                <a href="https://twitter.com/Imdivyakumari">
+                  <img src="img/twt2.png" alt="twitter"
+                /></a>
+                <a href="https://github.com/Iamdivyak"
+                  ><img src="./img/GitHub.png" alt="github"
+                /></a>
               </div>
-
+            </div>
+            <div class="col-md-6">
+              <div class="form">
+                <form action="emailto:">
+                  <input type="text" placeholder="Full Name" /><br />
+                  <input type="email" placeholder="Email" />
+                  <input type="number" placeholder="Phone No." /><br />
+                  <textarea
+                    name="message"
+                    id="msg"
+                    placeholder="Message"
+                    cols="30"
+                    rows="10"
+                  ></textarea
+                  ><br />
+                  <button type="submit">Send Message</button>
+                </form>
               </div>
-              <div class="col-md-6">
-                <div class="form">
-                  <form action="emailto:">
-                    <input type="text" placeholder="Full Name"><br>
-                    <input type="email" placeholder="Email">
-                    <input type="number" placeholder="Phone No."><br>
-                    <textarea name="message" id="msg" placeholder="Message" cols="30" rows="10"></textarea><br>
-                    <button type="submit">Send Message</button>
-                  </form>
-                </div>
-              </div>
-             </div>
-           </div>
+            </div>
           </div>
-        </div> 
-        
+        </div>
+      </div>
+    </div>
+
     <!-- footer -->
     <main-footer></main-footer>
-    <div class="footer-bottom"><span id="year"></span> © Portfolio Pvt. Ltd. All Rights Reserved.</div>
+    <div class="footer-bottom">
+      <span id="year"></span> © Portfolio Pvt. Ltd. All Rights Reserved.
+    </div>
 
-
-
-<!-- jquiry -->
+    <!-- jquiry -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<!-- bootstrap js -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <!--custom js  -->
+    <script src="js/pricing.js"></script>
     <script src="js/script.js"></script>
-</body>
+  </body>
 </html>
