@@ -25,7 +25,7 @@ document.getElementById("year").innerHTML = year;
 //           <a class="nav-link p-4" aria-current="page" href="pricing.html">Pricing</a>
 //         </li>
 //         <a class="nav-link p-4" aria-current="page" href="projects.html">Projects</a>
-//           </li>             
+//           </li>
 //         </ul>
 //        <a href="cv/divya kumari's Resume-hackerresume.pdf" download="DivyaKumari " class="my-cv">Download CV</a>
 //       </div>
@@ -81,5 +81,5 @@ class Footer extends HTMLElement {
   }
 }
 
-customElements.define("main-header", Header);
+// customElements.define("main-header", Header);
 customElements.define("main-footer", Footer);
