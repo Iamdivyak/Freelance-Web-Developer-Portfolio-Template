@@ -799,3 +799,27 @@ a{
   }
 }
 }
+
+.backtotop {
+  --offset: 50px; 
+  position:sticky;
+  bottom: 20px; 
+  right: 20px;
+  margin-left: 95%;     
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  
+  /* visual styling */
+  text-decoration: none;
+  font-size: 25px;
+  padding: 4px 12px 4px 12px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+.backtotop:hover{
+  color: #fff;
+  background: rgb(0, 0, 0);
+}
