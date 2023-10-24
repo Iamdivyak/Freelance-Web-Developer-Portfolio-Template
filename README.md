@@ -24,7 +24,7 @@ To view a live example, **[click here](https://iamdivyak.netlify.app/)**.
 2. **Clone the Repository**: Clone the forked repository to your local development environment:
 
    ```bash
-   git clone https://github.com/yourusername/freelance-portfolio-template.git
+   git clone https://github.com/yourusername/Freelance-Web-Developer-Portfolio-Template.git
 
 To get your personal portfolio. Customize your portfolio theme by using your own color scheme. Feel free to use it as-is or personalize it as much as you want.
 
