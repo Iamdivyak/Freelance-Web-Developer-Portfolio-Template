@@ -150,23 +150,6 @@ a.my-cv:hover {
 }
 
 
-/*a.my-cv{
-  text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
-  color: #F87474;
-  font-size: 1.4rem;
-  padding: 1.2rem 1.6rem;
-  border: .1rem solid #F87474;
-  border-radius: .5rem;
-  background-color: #FEF4F2 !important;
-}
-a.my-cv:hover{
-  background: #0D0F16 !important;
-  color: white;
-  font-weight: 600;
-  border: none;
-}
-*/
 
 
 
@@ -243,25 +226,7 @@ color: #0D0F16;
 }
 
 
-/*
-.homeBtn{
-  text-decoration: none;
-  font-family: 'Montserrat';
-  line-height: 3.2rem;
-  font-weight: 500;
-  font-size: 1.4rem;
-  color: white;
-  background: #F26C4F;
-  border-radius: .2rem;
-  padding: .6rem 2rem;
-  cursor: pointer;
-}
-.homeBtn:hover{
-  background-color: #0D0F16;
-  color: white;
-  font-weight: 600;
-}
-*/
+
 /* second section */
 .second-section{
   background: #FFFFFF;
@@ -455,28 +420,6 @@ border-radius: 10px;
   font-weight: 500;
 }
 
-/*.About-section .homeBtn {
-
-  text-decoration: none;
-  font-family: 'Montserrat';
-  line-height: 3.2rem;
-  font-weight: 500;
-  font-size: 1.4rem;
-  color: white;
-  background: #F26C4F;
-  border-radius: .2rem;
-  padding: 1.2rem 1.6rem;
-  margin-right: 2rem;
-  cursor: pointer;
-
-}
-
-.About-section .homeBtn:hover{
-  background-color: #0D0F16;
-  color: white;
-  font-weight: 600;
-
-}*/
 
 /* --------------contact ------------------ */
 
@@ -813,17 +756,13 @@ a{
 
     .project-grid .layer{
       position: relative;
-      /* background-color: #F87474; */
+     
     }
     .layer a{
       opacity: 1;
       background-color: #ff7777;
       border: #F87474;
-
-    /* }
-    .item1, .item2, .item3, .item4, .item5{
-      filter: blur(1px);
-    } */
+    }
   /* skills */
 
   .skill{
@@ -870,4 +809,4 @@ a{
       border-left: none; 
   }
 }
-}
+
