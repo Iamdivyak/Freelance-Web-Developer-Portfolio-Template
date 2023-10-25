@@ -1,4 +1,5 @@
-# Freelance Web Developer Portfolio Template ✨
+<h1 style="color: #F26C4F; text-align: center; padding: 20px 0"> Freelance Web Developer Portfolio Template ✨</h1>
+
 
 ## A clean, beautiful, and responsive portfolio template for Developers!
 <img width="908" alt="image" src="https://github.com/Iamdivyak/Freelance-Web-Developer-Portfolio-Template/assets/102896170/9035b9d2-255f-4df1-a355-dd4cb7d16fe4">
