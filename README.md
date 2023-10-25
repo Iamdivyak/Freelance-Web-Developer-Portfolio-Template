@@ -1,7 +1,8 @@
 # Freelance Web Developer Portfolio Template ✨
 
 ## A clean, beautiful, and responsive portfolio template for Developers!
-<img width="269" alt="image" src="https://github.com/Iamdivyak/portfolio/assets/102896170/2e6786ff-6568-41bf-983f-c92228eb7dfd">
+<img width="908" alt="image" src="https://github.com/Iamdivyak/Freelance-Web-Developer-Portfolio-Template/assets/102896170/9035b9d2-255f-4df1-a355-dd4cb7d16fe4">
+
 
 Welcome to the Freelance Web Developer Portfolio Template, an open-source project to help web developers showcase their skills and work in a professional manner. This template provides a customizable and responsive portfolio website, allowing you to create a stunning online presence to attract clients and employers.
 
