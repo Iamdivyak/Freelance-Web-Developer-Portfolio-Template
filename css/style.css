@@ -326,9 +326,8 @@ border-radius: 10px;
 }
 
 .service-section:hover{
-  max-width: 350px;
-  margin: 1rem;
-  padding: 3rem;
+  transform:scale(1.2);
+  transition:transform 1s ease-in;
 }
 
 /*  skills section  */
