@@ -550,8 +550,7 @@ footer{
   transition: 300ms ease-in;
 }
 .social-links img:hover{
-  width: 45px;
-  rotate: 45deg;
+  transform:scale(1.2) rotate(-45deg); 
   
 }
 .social-links a img{
