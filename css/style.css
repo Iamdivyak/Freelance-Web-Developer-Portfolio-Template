@@ -271,7 +271,7 @@ border-radius: 10px;
 .project-grid .layer{
 
   background-color: transparent;
-  opacity: 0.8;
+  opacity: 1;
   width: 100%;
   height: 100%;
   position:absolute;
@@ -279,27 +279,33 @@ border-radius: 10px;
   left:0;
   border-radius: 10px;
   transition: background 0.5s, color .5s, font-weight .5s ease-in-out ; /* Add a 0s transition for the specified properties */
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:15px;
 }
 .project-grid .layer:hover{
-  background-color: linear-gradient(90deg, rgba(79,1,1,1) 0%, rgba(242,79,79,1) 81%) !important; ;
+  background: linear-gradient(90deg, rgba(245, 245, 245, 0.5) 0%, rgb(238, 236, 236,0.5) 81%) !important; 
 
 }
 .layer a{
   border-radius: 10px;
-  bottom: 0;
-  bottom: 0;
   overflow: auto;
-  padding: 0.6rem 2rem;
-  background-color: black;
+  padding: 6px 10px;
   color: #ececec;
-  border: 1px solid black;
   opacity: 0;
   transition: 0.7s;
-  
+  background-color: rgb(25, 26, 27);
+  border: 1px solid rgb(36, 36, 37);
 }
 
 .layer:hover a{
   opacity: 1;
+}
+.layer a:hover{
+  background-color: #ff7777;
+  border: #F87474; 
 }
 
 /* services */
