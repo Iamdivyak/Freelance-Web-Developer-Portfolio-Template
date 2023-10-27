@@ -139,14 +139,27 @@ a.my-cv {
   border: .1rem solid #F87474;
   border-radius: .5rem;
   background-color: #FEF4F2 !important;
-  transition: background .5s, border 0.5s, color 0.5s ease-in-out; /* Add a 0s transition for the specified properties */
+  /* transition: background .5s, border 0.5s, color 0.5s ease-in-out; Add a 0s transition for the specified properties */
 }
 
 a.my-cv:hover {
-  background: linear-gradient(90deg, rgba(79,1,1,1) 0%, rgba(242,79,79,1) 81%) !important; /* Add your desired gradient colors */
   color: white;
   font-weight: 600;
-  border: none;
+  border: .1rem solid #ffffff;
+
+  background-size: 200% 100%;
+  animation: animatedGradient .8s ease-in 1 both;
+}
+/* use in all buttons */
+@keyframes animatedGradient {
+  0% {
+    background-position: 200% 0;
+    background-image: linear-gradient(90deg, rgb(109, 2, 2) 0%, rgba(242,79,79,1) 81%);
+  }
+  100% {
+    background-position: 100% 0;
+    background-image: linear-gradient(90deg, rgb(109, 2, 2) 0%, rgba(242,79,79,1) 81%);
+  }
 }
 
 
@@ -216,13 +229,15 @@ color: #0D0F16;
   border-radius: .2rem;
   padding: .6rem 2rem;
   cursor: pointer;
-  transition: background .5s, border 0.5s, color 0.5s ease-in-out; /* Add a 0s transition for the specified properties */
+  /* transition: background .5s, border 0.5s, color 0.5s ease-in-out; Add a 0s transition for the specified properties */
 }
 
 .homeBtn:hover {
-  background: linear-gradient(90deg, rgba(79,1,1,1) 0%, rgba(242,79,79,1) 81%) !important; ; /* Add your desired gradient colors */
   color: white;
   font-weight: 500;
+
+  background-size: 200% 100%;
+  animation: animatedGradient 1s ease-in-out 1 both;
 }
 
 
@@ -286,7 +301,7 @@ border-radius: 10px;
   gap:15px;
 }
 .project-grid .layer:hover{
-  background: linear-gradient(90deg, rgba(245, 245, 245, 0.5) 0%, rgb(238, 236, 236,0.5) 81%) !important; 
+  /* background: linear-gradient(90deg, rgba(245, 245, 245, 0.5) 0%, rgb(238, 236, 236,0.5) 81%) !important;  */
 
 }
 .layer a{
@@ -296,15 +311,15 @@ border-radius: 10px;
   color: #ececec;
   opacity: 0;
   transition: 0.7s;
-  background-color: rgb(25, 26, 27);
-  border: 1px solid rgb(36, 36, 37);
+  background-color: #ff7777;
+  border: #F87474; 
 }
 
 .layer:hover a{
   opacity: 1;
 }
 .layer a:hover{
-  background-color: #ff7777;
+  background-color: #f54343;
   border: #F87474; 
 }
 
@@ -416,13 +431,15 @@ border-radius: 10px;
   padding: 1.2rem 1.6rem;
   margin-right: 2rem;
   cursor: pointer;
-  transition: background .5s, border 0.5s, color 0.5s ease-in-out; 
+  /* transition: background .5s, border 0.5s, color 0.5s ease-in-out;  */
 }
 
 .About-section .homeBtn:hover {
-  background: linear-gradient(90deg, rgba(79,1,1,1) 0%, rgba(242,79,79,1) 81%) !important; ; /* Add your desired gradient colors */
   color: white;
   font-weight: 500;
+
+  background-size: 200% 100%;
+  animation: animatedGradient .8s ease-in-out 1 both;
 }
 
 
@@ -525,13 +542,15 @@ button[type="submit"] {
   color: #FFFFFF;
   margin-top: 20px;
   padding: 0 15px;
-  transition: background .5s, border 0.5s, color 0.5s ease-in-out; /* Add a 0s transition for the specified properties */
+  /* transition: background .5s, border 0.5s, color 0.5s ease-in-out; Add a 0s transition for the specified properties */
 }
 
 button[type="submit"]:hover {
-  background: linear-gradient(90deg, rgba(79,1,1,1) 0%, rgba(242,79,79,1) 81%) !important; ; /* Add your desired gradient colors */
   border: 1px solid #ffffff;
   color: rgb(255, 255, 255);
+
+  background-size: 200% 100%;
+  animation: animatedGradient .8s ease-in-out 1 both;
 }
 
 /* footer */
