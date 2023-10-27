@@ -143,23 +143,12 @@ a.my-cv {
 }
 
 a.my-cv:hover {
+  background: linear-gradient(90deg, rgba(79,1,1,1) 0%, rgba(242,79,79,1) 81%); /* Add your desired gradient colors */
   color: white;
   font-weight: 600;
-  border: .1rem solid #ffffff;
-
-  background-size: 200% 100%;
-  animation: animatedGradient .8s ease-in 1 both;
-}
-/* use in all buttons */
-@keyframes animatedGradient {
-  0% {
-    background-position: 200% 0;
-    background-image: linear-gradient(90deg, rgb(109, 2, 2) 0%, rgba(242,79,79,1) 81%);
-  }
-  100% {
-    background-position: 100% 0;
-    background-image: linear-gradient(90deg, rgb(109, 2, 2) 0%, rgba(242,79,79,1) 81%);
-  }
+  border: .1rem  solid white;
+  transition: all 1s ease-in-out; 
+  /* Add a 0s transition for the specified properties */ 
 }
 
 
@@ -225,20 +214,41 @@ color: #0D0F16;
   font-weight: 500;
   font-size: 1.4rem;
   color: white;
-  background: #F26C4F;
+  /* background: #F26C4F; */
+  background: linear-gradient(90deg, #F26C4F 0%, #F26C4F 81%);
   border-radius: .2rem;
   padding: .6rem 2rem;
   cursor: pointer;
-  /* transition: background .5s, border 0.5s, color 0.5s ease-in-out; Add a 0s transition for the specified properties */
+  /* transition: background 1s, border 0.5s, color 0.5s ease-in-out; */
+   /* Add a 0s transition for the specified properties */
 }
 
 .homeBtn:hover {
   color: white;
   font-weight: 500;
-
-  background-size: 200% 100%;
-  animation: animatedGradient 1s ease-in-out 1 both;
+  animation: animatedGradient .5s ease 1 both;
+  transition: all 1s ease-in;
 }
+
+@keyframes animatedGradient{
+  0%{
+    background: linear-gradient(90deg, #660303c9 0%, #e02929c9 81%);
+  }
+  25%{
+    background: linear-gradient(90deg,  #660303da 0%, #e02929da 81%);
+  }
+  50%{
+    background: linear-gradient(90deg,  #660303ec 0%, #e02929ec 81%);
+  }
+  75%{
+    background: linear-gradient(90deg,  #660303ef 0%, #e02929ef 81%);
+  }
+  100%{
+    background: linear-gradient(90deg,  #660303 0%, #e02929 81%);
+  }
+}
+
+
 
 
 
@@ -293,17 +303,18 @@ border-radius: 10px;
   top:0;
   left:0;
   border-radius: 10px;
-  transition: background 0.5s, color .5s, font-weight .5s ease-in-out ; /* Add a 0s transition for the specified properties */
+  /* transition: background 0.5s, color .5s, font-weight .5s ease-in-out ; Add a 0s transition for the specified properties */
 
   display:flex;
   justify-content: center;
   align-items: center;
   gap:15px;
 }
-.project-grid .layer:hover{
+/* .project-grid .layer:hover{
   /* background: linear-gradient(90deg, rgba(245, 245, 245, 0.5) 0%, rgb(238, 236, 236,0.5) 81%) !important;  */
 
-}
+/* } */
+
 .layer a{
   border-radius: 10px;
   overflow: auto;
@@ -435,11 +446,9 @@ border-radius: 10px;
 }
 
 .About-section .homeBtn:hover {
+  background: linear-gradient(90deg, rgba(79,1,1,1) 0%, rgba(242,79,79,1) 81%) !important; ; /* Add your desired gradient colors */
   color: white;
-  font-weight: 500;
-
-  background-size: 200% 100%;
-  animation: animatedGradient .8s ease-in-out 1 both;
+  font-weight: 500; 
 }
 
 
@@ -546,11 +555,9 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
+  background: linear-gradient(90deg, rgba(79,1,1,1) 0%, rgba(242,79,79,1) 81%) !important; ; /* Add your desired gradient colors */
   border: 1px solid #ffffff;
   color: rgb(255, 255, 255);
-
-  background-size: 200% 100%;
-  animation: animatedGradient .8s ease-in-out 1 both;
 }
 
 /* footer */
@@ -649,7 +656,7 @@ a{
 .back-to-top::after {
     content: "";
     display: block;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     border-bottom: solid 10px #EA5D5F;
     border-left: solid 10px transparent;
     line-height: 0;
