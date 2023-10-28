@@ -352,17 +352,18 @@ border-radius: 10px;
   border: 3px solid#ffffff;
   height: 627px;
   width: 350px;
-  margin: 25px;
+  margin: top right bottom left;
+  margin: auto 50px;
+
+
+ 
+  
   border-radius: 11px;
   display: inline-flex;
   flex-direction: column;
-  background-color:#FEF4F2 !important;
-  justify-content: space-evenly;
-  
+  background-color:#FEF4F2 !important;  
   margin-bottom: 10px; /* Add vertical spacing between items */
-  flex-wrap: wrap;
   justify-content: space-evenly;
-
 }
 @media (min-width: 1024px) {
   .item {
