@@ -365,6 +365,8 @@ border-radius: 10px;
   margin-bottom: 10px; /* Add vertical spacing between items */
   justify-content: space-evenly;
 }
+
+/* Media query for desktop view */
 @media (min-width: 1024px) {
   .item {
     width: calc(33.33% - 10px);
@@ -372,10 +374,12 @@ border-radius: 10px;
   }
 
 }
+
+/* Media query for tablet " */
 @media (max-width: 1023px) and (min-width: 768px) {
   
   .item {
-    width: calc(50% - 10px); /* Two items per row for tablets with spacing */
+    width: calc(50% - 10px); 
   }
 }
 
@@ -383,7 +387,7 @@ border-radius: 10px;
 /* Media query for mobile view */
 @media (max-width: 767px) {
   .item {
-    width: calc(100% - 10px); /* Single column for mobile with spacing */
+    width: calc(100% - 10px);
   }
  
 }
