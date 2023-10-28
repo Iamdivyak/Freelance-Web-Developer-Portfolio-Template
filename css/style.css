@@ -32,12 +32,23 @@ padding-top: 3rem;
 h2{
   font-family:'Montserrat';
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 4rem;
 padding-top: 1.5rem;
 }
 h3{
-  margin-bottom: 2rem;
+ margin-bottom: 2rem;
+  text-align: center;
+  margin-top: 15px;
+  color: #F26C4F;
+  font-size: 26px;
+  font-weight: 450;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 3px;
+  margin: 41px;
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+
 }
 p.para{
   font-family: 'Nunito';
@@ -336,16 +347,181 @@ border-radius: 10px;
   transition:transform 1s ease-in;
 }
 
+/* Pricing Section Cards */
+.pricing-plan{
+  border: 3px solid#ffffff;
+  height: 627px;
+  width: 350px;
+  margin: 25px;
+  border-radius: 11px;
+  display: inline-flex;
+  flex-direction: column;
+  background-color:#FEF4F2 !important;
+  justify-content: space-evenly;
+  
+  margin-bottom: 10px; /* Add vertical spacing between items */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+@media (min-width: 1024px) {
+  .item {
+    width: calc(33.33% - 10px);
+
+  }
+
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  
+  .item {
+    width: calc(50% - 10px); /* Two items per row for tablets with spacing */
+  }
+}
+
+
+/* Media query for mobile view */
+@media (max-width: 767px) {
+  .item {
+    width: calc(100% - 10px); /* Single column for mobile with spacing */
+  }
+ 
+}
+
+
+
+
+.plan-description {
+
+  text-align: center;
+  font-weight: 400;
+  font-size: 26px;
+
+
+
+}
+
+
+.card-contents{
+
+    text-align: left;
+    margin-left: 72px;
+    font-weight: 600;
+    line-height: 3.5;
+    font-size: 18px;
+    display: inline-block;
+}
+.btn-light {
+  color: #000;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  margin: 20px;
+  margin-left: 91px;
+  margin-right: 91px;
+  padding: 15px;
+  font-size: 14px;
+}
+
+
 /*  skills section  */
+
+.items {
+  display: grid;
+  margin: 2rem auto;
+  border: 2px solid rgb(218, 218, 218);
+  transition: all .4s ease-in-out;
+  border-radius: 7px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px 25px 25px 25px;
+  place-items: center;
+  grid-gap: 10px;
+  margin: 20px;
+  padding: 20px;
+
+  
+}
+
+.items:hover {
+  transform: scale(1.1);
+}
+
+.items img {
+  width: 5.5rem;
+  place-items: centre;
+}
+
+.items p {
+  font-weight: 400;
+}
+.skill{
+  width: 250px;
+
+
+  
+}
+
+.skills {
+  display: grid;
+  justify-items: center;
+  grid-gap: 4px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+@media (min-width: 1024px) {
+  .skills {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+  }
+
+}
+
+/* Tablet View: 3 columns */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .skills {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+  }
+  
+}
+
+/* Mobile View: 2 columns */
+@media (max-width: 767px) {
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+
+  }
+ 
+}
+/*
 .items{
- margin: 2rem auto;;
+ flex: 1;
+ transition: all .4s ease-in-out;
+ margin: 2rem auto;
+ border: 2px solid rgb(218, 218, 218);
+ margin: 20px;
+ border-radius: 4px;
+ background-color: #ffffff;
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+
+ padding:25px 25px 25px 25px;
+}
+
+.items:hover{
+  transform: scale(1.1);t
+
 }
 
 .items img{
-  width: 3.5rem;
+  width: 5.5rem;
 }
 .items p{
-  font-weight: 500;
+  font-weight: 400;
 }
 .skills{
   display: flex;
@@ -353,11 +529,13 @@ border-radius: 10px;
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
+  
  
 }
 
 .skill{
   width: 220px;
+
   
 }
 
@@ -365,6 +543,7 @@ border-radius: 10px;
   border-color:rgba(242, 108, 79, 0.5);
   border-width: 0px 0px 1px 0px;
   border-style: solid;
+  border-right: 1px solid rgba(242, 108, 79, 0.5); 
 }
 
 .border_bottom{
@@ -382,6 +561,7 @@ border-radius: 10px;
  border-right: 1px solid rgba(242, 108, 79, 0.5); 
 }
 
+*/
 /* ----------cta-------- */
 .pos-relative{
   position: relative;
@@ -675,9 +855,7 @@ a{
   .border_bottom{
       border: none;
   }
- .borderSL{
-  border-right: 1px solid rgba(242, 108, 79, 0.5); 
- }
+
  
 }
 @media screen and (max-width:479px) {
@@ -698,12 +876,9 @@ a{
       border-left: none; 
   }
   
-  .borderSL{
-      border-right: 1px solid rgba(242, 108, 79, 0.5); 
-     }
+  
   .border2{
-      border-color:rgba(242, 108, 79, 0.5);
-      border-width: 0px 0px 1px 0px;
+      border-width: 0px 0px 0px 0px;
       border-style: solid; 
   }
   .container-fluid{
@@ -797,11 +972,10 @@ a{
       display: none;
   }
   .skill{
-      width: 170px;
+      width: 248px;
   }
   .border_bottom{
-      border-color:rgba(242, 108, 79, 0.5);
-      border-width: 0px 0px 1px 0px;
+      border-width: 0px 0px 0px 0px;
       border-style: solid; 
   }
   .borderSL, .border3{

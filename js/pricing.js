@@ -1,7 +1,7 @@
 const pricingData = [
     {
       title: 'UI/UX Design',
-      price: 'Rs 1500',
+      price: '₹ 1500',
       features: [
         '1 Home Page Design',
         '4 Side Page Design',
@@ -11,8 +11,19 @@ const pricingData = [
       ],
     },
     {
-        title: 'UI/UX Design',
-        price: 'Rs 1500',
+        title: 'Web Design',
+        price: '₹ 2500',
+        features: [
+          '1 Home Page Design',
+          '4 Side Page Design',
+          'Responsive Design',
+          'Prototype',
+          'Source File',
+        ],
+      },
+      {
+        title: 'SEO',
+        price: '₹ 1500',
         features: [
           '1 Home Page Design',
           '4 Side Page Design',
@@ -23,7 +34,7 @@ const pricingData = [
       },
       {
         title: 'UI/UX Design',
-        price: 'Rs 1500',
+        price: '₹ 1500',
         features: [
           '1 Home Page Design',
           '4 Side Page Design',
@@ -33,8 +44,8 @@ const pricingData = [
         ],
       },
       {
-        title: 'UI/UX Design',
-        price: 'Rs 1500',
+        title: 'Wordpress',
+        price: '₹ 3000',
         features: [
           '1 Home Page Design',
           '4 Side Page Design',
@@ -44,19 +55,8 @@ const pricingData = [
         ],
       },
       {
-        title: 'UI/UX Design',
-        price: 'Rs 1500',
-        features: [
-          '1 Home Page Design',
-          '4 Side Page Design',
-          'Responsive Design',
-          'Prototype',
-          'Source File',
-        ],
-      },
-      {
-        title: 'UI/UX Design',
-        price: 'Rs 1500',
+        title: "Google AD's",
+        price: '₹ 1500',
         features: [
           '1 Home Page Design',
           '4 Side Page Design',
@@ -87,7 +87,7 @@ const pricingData = [
           </div>
         `).join('')}
       </div>
-      <a href="#" class="btn btn-transparent">Request to order</a>
+      <a href="#" class="btn btn-light">Request to order</a>
     `;
   
     return card;
