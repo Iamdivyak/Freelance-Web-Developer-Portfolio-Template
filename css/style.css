@@ -226,7 +226,7 @@ color: #0D0F16;
 .homeBtn:hover {
   color: white;
   font-weight: 500;
-  animation: animatedGradient .5s ease 1 both;
+  animation: animatedGradient .5s .2s ease 1 both;
   transition: all 1s ease-in;
 }
 
