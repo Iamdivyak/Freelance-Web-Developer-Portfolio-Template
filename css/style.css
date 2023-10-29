@@ -363,6 +363,81 @@ border-radius: 10px;
 }
 
 /*  skills section  */
+
+.items {
+  display: grid;
+  margin: 2rem auto;
+  border: 2px solid rgb(218, 218, 218);
+  transition: all .4s ease-in-out;
+  border-radius: 7px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 25px 25px 25px 25px;
+  place-items: center;
+  grid-gap: 10px;
+  margin: 20px;
+  padding: 20px;
+
+  
+}
+
+.items:hover {
+  transform: scale(1.1);
+}
+
+.items img {
+  width: 5.5rem;
+  place-items: centre;
+}
+
+.items p {
+  font-weight: 400;
+}
+.skill{
+  width: 250px;
+
+
+  
+}
+
+.skills {
+  display: grid;
+  justify-items: center;
+  grid-gap: 4px;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+@media (min-width: 1024px) {
+  .skills {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+  }
+
+}
+
+/* Tablet View: 3 columns */
+@media (max-width: 1023px) and (min-width: 768px) {
+  .skills {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+  }
+  
+}
+
+/* Mobile View: 2 columns */
+@media (max-width: 767px) {
+  .skills {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+
+  }
+ 
+}
+/*
 .items{
  margin: 2rem auto;;
 }
@@ -407,6 +482,8 @@ border-radius: 10px;
 .border10{
  border-right: 1px solid rgba(242, 108, 79, 0.5); 
 }
+
+*/
 
 /* ----------cta-------- */
 .pos-relative{
@@ -701,9 +778,6 @@ a{
   .border_bottom{
       border: none;
   }
- .borderSL{
-  border-right: 1px solid rgba(242, 108, 79, 0.5); 
- }
  
 }
 @media screen and (max-width:479px) {
@@ -724,13 +798,9 @@ a{
       border-left: none; 
   }
   
-  .borderSL{
-      border-right: 1px solid rgba(242, 108, 79, 0.5); 
-     }
+  
   .border2{
-      border-color:rgba(242, 108, 79, 0.5);
       border-width: 0px 0px 1px 0px;
-      border-style: solid; 
   }
   .container-fluid{
       max-width: 95%;
@@ -826,7 +896,6 @@ a{
       width: 170px;
   }
   .border_bottom{
-      border-color:rgba(242, 108, 79, 0.5);
       border-width: 0px 0px 1px 0px;
       border-style: solid; 
   }
