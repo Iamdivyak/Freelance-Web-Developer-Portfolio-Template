@@ -13,4 +13,4 @@ jobs:
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: "Congratulations, @${{ github.actor }}! 🎉 Thank you for creating your issue for the Freelance web developer template. Your contribution is greatly appreciated and we look forward to working with you to resolve the issue. Keep up the great work! Should you have any queries or require guidance, do not hesitate to ask."
-        pr-message: "Great job, @${{ github.actor }}! 🎉 Thank you for submitting your pull request for Rentalog. Our dedicated team will review it diligently.Your contribution is valuable and we appreciate your efforts to improve our project."
+        pr-message: "Great job, @${{ github.actor }}! 🎉 Thank you for submitting your pull request for the Freelance web developer template. Our dedicated team will review it diligently.Your contribution is valuable and we appreciate your efforts to improve our project."
