@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 /* utility */
 *{
   box-sizing: border-box;
@@ -7,6 +8,7 @@
 }
 body{
   font-size: 1.6rem;
+  
 }
 
 .container-fluid{
@@ -773,8 +775,81 @@ a{
     box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.25);
 }
 
+
+        
+        .pricing-plans {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+        }
+
+        .card {
+          display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+            
+            width: 260px;
+            max-width: 100%;
+            border: 2px solid black;
+            border-radius: 7px;
+            padding: 23px;
+            text-align: center;
+            margin: 10px;
+            display: inline-block;
+            margin-bottom: 40px;
+            align-items: center;
+        }
+
+        .title1 {
+            font-size: 25px;
+            text-align: center;
+            font-family: "Inter", cursive;
+            color: #F26C4F;
+        }
+
+        .pricing {
+            font-size: 18px;
+            margin: 10px;
+            font-family: "Inter", cursive;
+        }
+
+        .line {
+            width: 205px;
+            align-items: center;
+            border: 1px solid rgb(144, 143, 143);
+            margin-top: 8px;
+        }
+
+        .item {
+            font-size: 16px;
+            margin: 20px 0;
+            text-align: left;
+            font-family: "Inter", cursive;
+        }
+
+        .button {
+            margin-top: 9px;
+            border: 1px solid #F26C4F;
+            background-color: white;
+            color: #F26C4F;
+            border-radius: 5px;
+            padding: 8px 18px;
+            cursor: pointer;
+            font-family: "Inter", cursive;
+        }
+
 /*  break point at 768px */
+@media screen and (max-width: 768px){
+.card {
+    align-items: center;
+}
+}
+
+
 @media screen and (min-width:768px) {
+  
   .border_bottom{
       border: none;
   }
@@ -794,6 +869,7 @@ a{
 }
 
 @media screen and (max-width:768px) {
+  
   .border3, .border7, .border10{
       border-left: none; 
   }
@@ -889,6 +965,7 @@ a{
 
 
 @media screen and (min-width:768px) and (max-width: 992px){
+  
   span.toggler-icon{
       display: none;
   }
