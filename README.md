@@ -107,6 +107,10 @@ Your contribution is the root of the success of this project.
 Also Give it a Star 🌟, If you loved contributing to the project. 
 Let's connect on my [Github](https://github.com/Iamdivyak) for more such projects !!
 
+<a href="https://github.com/Iamdivyak/Freelance-Web-Developer-Portfolio-Template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Iamdivyak/Freelance-Web-Developer-Portfolio-Template" />
+</a>
+
 ## 👩‍💻 Project Admin
 
 <table>
